@@ -9,6 +9,7 @@
     Darkpink: #f08080
     Aqua: #20b2aa
     Black: #23272a
+    Aquamarine: #7fffd4
 */
 
 /* RESET */
@@ -93,7 +94,6 @@
 .panel-grey{
     display: flex;
     background-color: lightgrey;
-    flex-direction: row-reverse;
     height: 500px;
     justify-content: center;
     padding: 50px 0;
@@ -116,8 +116,82 @@
     border: dashed 2px;
 }
 
+
 .green-square{
     width: 100%;
     background-color: #228b22;
     border: dashed 2px;
+    /* debug */
+}
+
+/* FOOTER */
+
+.footer-top{
+    background-color: #23272a;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    /* debug */
+    height: 500px;
+
+}
+
+.footer-links{
+    width: 60%;
+    display: flex;
+    border: dashed 2px;
+
+}
+
+.darkpink-col{
+    background-color: #f08080;
+    border: dashed 2px;
+    /* debug */
+    width: 30%;
+}
+
+.aqua-col{
+    background-color: #20b2aa;
+    border: dashed white 2px;
+    /* debug */
+    width: 20%;
+}
+
+.footer-bottom{
+    background-color: #23272a;
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    /* debug */
+    height: 100px;
+}
+
+.footer-nav{
+    background-color: #7fffd4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    width: 60%;
+}
+
+.footer-logo{
+    background-color: pink;
+    padding: 10px;
+    line-height: 25%;
+    border: dashed 2px;
+    /* debug */
+    height: 50%;
+}
+
+.footer-button{
+    background-color: pink;
+    padding: 10px;
+    line-height: 25%;
+    border: dashed 2px;
+    /* debug */
+    height: 50%;
 }
