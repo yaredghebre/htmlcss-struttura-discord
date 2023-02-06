@@ -54,9 +54,10 @@
 
 .header-nav{
     border: dashed 2px;
+    display: flex;
     width: 50%;
     padding: 0 10px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .header-login{
